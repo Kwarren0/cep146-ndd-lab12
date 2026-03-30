@@ -1,7 +1,6 @@
-CC = gcc
-CFLAGS = -Wall -Wextra -g
-
-TARGET = lab12
+CC      = gcc
+CFLAGS  = -Wall -Wextra -pedantic -std=c99 -g
+TARGET  = lab12
 
 all: $(TARGET)
 
